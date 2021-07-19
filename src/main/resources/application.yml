@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dayoon97/config-server-example/
+          search-paths: example1
+          default-label: main
